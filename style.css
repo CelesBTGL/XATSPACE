@@ -19,7 +19,11 @@ body {
     transition: all .5s ease;
 }
 
-
+audio{
+    margin-left: -6px;
+    margin-top: -5px;
+    opacity: 0%;
+}
 /*targets*/
 
 #R:target .spn,
@@ -40,7 +44,7 @@ body {
 }
 
 #G:target .CLeter {
-    color: white;
+    color: #66EA76;
 }
 
 #B:target .CLeter {
@@ -62,7 +66,9 @@ body {
 
 #G:target #ContGen::-webkit-scrollbar-thumb,
 #G:target #posts::-webkit-scrollbar-thumb {
-    background: linear-gradient(360deg, black 43%, white 43.1%, white 50%, white 56.9%, black 57%);
+    background: linear-gradient(360deg, black 43%, #66EA76 43.1%, #66EA76 50%, #66EA76 56.9%, black 57%);
+    /* background: linear-gradient(360deg, black 43%, white 43.1%, white 50%, white 56.9%, black 57%); */
+  
 }
 
 #B:target #ContGen::-webkit-scrollbar-thumb,
@@ -82,14 +88,17 @@ body {
 }
 
 #G:target .CBack {
-    background: white;
+    background: #66EA76;
 }
 
 #B:target .CBack {
     background: #599DE7;
 }
 
-
+.text__decoration{
+    text-decoration: none;
+    color: white;
+}
 /*borders*/
 
 #R:target .BordC,
@@ -104,7 +113,7 @@ body {
 
 #G:target .BordC,
 #G:target #BordC {
-    border-color: white;
+    border-color: #66EA76 ;
 }
 
 #B:target .BordC,
@@ -137,7 +146,8 @@ body {
     /*background: lightgray;*/
     border: .1vw solid black;
     /*-webkit-box-shadow: inset 0 0 6px gray;*/
-    background: linear-gradient(360deg, black 43%, #66EA76 43.1%, #66EA76 50%, #66EA76 56.9%, black 57%);
+    background: linear-gradient(360deg, black 43%, white 43.1%, white 50%, white 56.9%, black 57%);
+
 }
 
 #Sl::-webkit-scrollbar {
@@ -181,7 +191,7 @@ body {
     right: 0;
     bottom: 0;
     display: block;
-    background: url(https://i.postimg.cc/bY0KHgfX/ezgif-com-gif-maker-28.gif);
+    background: url(https://i.postimg.cc/T38HgbGZ/ezgif-com-gif-maker-27.gif);
     background-size: cover;
     transform-origin: center center 0;
     transform: translateZ(-1px) scale(2);
@@ -226,7 +236,7 @@ body {
     filter: blur(1px);
     transition: all .5s ease;
     font-weight: lighter;
-    color: #66EA76;
+    color: white;
     text-shadow: .5vw .5vw .5vw black;
 }
 
@@ -282,7 +292,8 @@ body {
 }
 
 #cog {
-    filter: contrast(400%) sepia(1) hue-rotate(220deg) saturate(1500%) invert(100%)grayscale(50%) brightness(200%);
+    filter: contrast(5.5);
+    /* filter: contrast(400%) sepia(1) hue-rotate(220deg) saturate(1500%) invert(100%)grayscale(50%) brightness(200%); */
 }
 
 #R:target .ImgCl,
@@ -297,11 +308,13 @@ body {
 
 #G:target .ImgCl,
 #G:target #mnu:hover #cog {
-    filter: contrast(10000%);
+    filter: contrast(400%) sepia(1) hue-rotate(220deg) saturate(1500%) invert(100%)grayscale(50%) brightness(200%);
+    /* filter: contrast(10000%); */
 }
 
 #G:target #logimg {
-    filter: contrast(5.5);
+    filter: contrast(900%) sepia(1) hue-rotate(220deg) saturate(9000%) invert(100%) grayscale(60%) brightness(200%);
+    
 }
 
 #P:target .ImgCl,
@@ -329,7 +342,7 @@ body {
     background: white;
     top: -6vw;
     border-radius: 50%;
-    border: .5vw solid #66EA76;
+    border: .5vw solid white;
     overflow: hidden;
 }
 
@@ -350,7 +363,7 @@ body {
     left: 5%;
     top: 35%;
     font-size: 2vw;
-    color: #66EA76;
+    color: white;
     letter-spacing: .3vw;
 }
 
@@ -373,7 +386,7 @@ body {
     width: 40%;
     left: 30%;
     position: absolute;
-    filter: contrast(900%) sepia(1) hue-rotate(220deg) saturate(9000%) invert(100%) grayscale(60%) brightness(200%);
+    filter: contrast(900%) sepia(1) hue-rotate(220deg) saturate(9000%) invert(100%) grayscale(153%) brightness(279%);
 }
 
 #cong {
@@ -381,7 +394,7 @@ body {
     width: 10%;
     height: 100%;
     left: 24.5%;
-    border-right: .1vw solid #66EA76;
+    border-right: .1vw solid white;
 }
 
 #cong:hover #ConIm {
@@ -404,7 +417,7 @@ body {
 
 #TConf,
 #TConf2 {
-    color: #66EA76;
+    color: white;
     letter-spacing: .1vw;
     font-size: .6vw;
     margin: 0;
@@ -496,7 +509,7 @@ body {
 
 .Mnux:nth-child(4) {
     margin-left: 53.9vw;
-    border-left: .1vw solid #66EA76;
+    border-left: .1vw solid white;
 }
 
 #btn1 {
@@ -741,7 +754,7 @@ body {
 
 #Nrm {
     margin-left: 5.5vw;
-    background: #66EA76;
+    background: white;
 }
 
 #rd {
@@ -757,7 +770,7 @@ body {
 }
 
 #gr {
-    background: white;
+    background: #66EA76;
 }
 
 #fot {
@@ -799,7 +812,7 @@ body {
     left: 15%;
     overflow: auto;
     overflow-x: hidden;
-    border-bottom: .2vw solid #66EA76;
+    border-bottom: .2vw solid white;
 }
 
 #Lpost {
@@ -818,7 +831,7 @@ body {
 #imgL {
     width: 3vw;
     height: 3vw;
-    border: .1vw solid #66EA76;
+    border: .1vw solid white;
     margin: .2vw;
 }
 
@@ -887,7 +900,8 @@ body {
 }
 
 #posts::-webkit-scrollbar-thumb {
-    background: linear-gradient(360deg, black 43%, #66EA76 43.1%, #66EA76 50%, #66EA76 56.9%, black 57%);
+    background: linear-gradient(360deg, black 43%, white 43.1%, white 50%, white 56.9%, black 57%);
+    /* background: linear-gradient(360deg, black 43%, #66EA76 43.1%, #66EA76 50%, #66EA76 56.9%, black 57%); */
 }
 
 #posts {
@@ -902,14 +916,14 @@ body {
 #post {
     width: 90%;
     height: auto;
-    border-bottom: .1vw solid #66EA76;
+    border-bottom: .1vw solid white;
     margin-left: 3%;
     margin-bottom: 10%;
 }
 
 #Postimg {
     width: 80%;
-    border-left: .5vw solid #66EA76;
+    border-left: .5vw solid white;
     margin-left: 8%;
     border-radius: 1vw .5vw 0 .2vw;
 }
@@ -921,7 +935,7 @@ body {
 }
 
 #Dtit {
-    color: #66EA76;
+    color: white;
     text-decoration: underline;
     font-size: .8vw;
     letter-spacing: .15vw;
@@ -948,7 +962,7 @@ body {
     height: 3vw;
     border-radius: 50%;
     position: absolute;
-    background: #66EA76;
+    background: white;
     top: 20%;
     overflow: hidden;
     filter: blur(1px) grayscale(10%);
