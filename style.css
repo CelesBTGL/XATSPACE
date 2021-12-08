@@ -19,11 +19,13 @@ body {
     transition: all .5s ease;
 }
 
-audio{
+audio {
     margin-left: -6px;
     margin-top: -5px;
     opacity: 0%;
 }
+
+
 /*targets*/
 
 #R:target .spn,
@@ -68,7 +70,6 @@ audio{
 #G:target #posts::-webkit-scrollbar-thumb {
     background: linear-gradient(360deg, black 43%, #66EA76 43.1%, #66EA76 50%, #66EA76 56.9%, black 57%);
     /* background: linear-gradient(360deg, black 43%, white 43.1%, white 50%, white 56.9%, black 57%); */
-  
 }
 
 #B:target #ContGen::-webkit-scrollbar-thumb,
@@ -95,10 +96,12 @@ audio{
     background: #599DE7;
 }
 
-.text__decoration{
+.text__decoration {
     text-decoration: none;
     color: white;
 }
+
+
 /*borders*/
 
 #R:target .BordC,
@@ -113,7 +116,7 @@ audio{
 
 #G:target .BordC,
 #G:target #BordC {
-    border-color: #66EA76 ;
+    border-color: #66EA76;
 }
 
 #B:target .BordC,
@@ -147,7 +150,6 @@ audio{
     border: .1vw solid black;
     /*-webkit-box-shadow: inset 0 0 6px gray;*/
     background: linear-gradient(360deg, black 43%, white 43.1%, white 50%, white 56.9%, black 57%);
-
 }
 
 #Sl::-webkit-scrollbar {
@@ -191,7 +193,7 @@ audio{
     right: 0;
     bottom: 0;
     display: block;
-    background: url(https://i.postimg.cc/T38HgbGZ/ezgif-com-gif-maker-27.gif);
+    background: url(assets/img/johnnywrestling.gif);
     background-size: cover;
     transform-origin: center center 0;
     transform: translateZ(-1px) scale(2);
@@ -314,7 +316,6 @@ audio{
 
 #G:target #logimg {
     filter: contrast(900%) sepia(1) hue-rotate(220deg) saturate(9000%) invert(100%) grayscale(60%) brightness(200%);
-    
 }
 
 #P:target .ImgCl,
