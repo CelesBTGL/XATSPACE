@@ -386,6 +386,7 @@ audio {
 #Log img {
     width: 40%;
     left: 30%;
+    top: -61%;
     position: absolute;
     filter: contrast(900%) sepia(1) hue-rotate(220deg) saturate(9000%) invert(100%) grayscale(153%) brightness(279%);
 }
