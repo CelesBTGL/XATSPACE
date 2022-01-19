@@ -1095,3 +1095,435 @@ a {
 #nowayfixed {
     opacity: 0;
 }
+
+
+/**/
+
+.player .circle {
+    z-index: 9999999999999999999999999999999;
+    max-width: 120px;
+}
+
+.player .circle img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 10px;
+}
+
+.player .circle .active {
+    text-transform: uppercase;
+    animation-name: example;
+    animation: record 3s linear 0s infinite forwards;
+}
+
+@keyframes record {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+.player .circle .circ {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 15%;
+    top: 30%;
+    background-color: black;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.player .player-track {
+    background: black;
+    top: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 15px 15px 5px 160px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.player .player-track .active {
+    top: -100px;
+}
+
+.player .player-track .time {
+    font-family: 'Malgun Gothic';
+    top: 22%;
+    left: 20%;
+    position: absolute;
+    font-size: .6vw;
+    margin-top: 1vw;
+    letter-spacing: .1vw;
+    color: white;
+}
+
+.player .player-track .progress-bar {
+    margin-top: 1vw;
+    background-color: #303030;
+    height: .1vw;
+    border-radius: 20px;
+}
+
+.progress-bar {
+    position: relative;
+    top: 1.5vw;
+}
+
+.player .player-track .progress-bar .fillBar {
+    background: white;
+    animation: backflicker 1.5s infinite alternate;
+    width: 0;
+    height: .2vw;
+    border-radius: 1.46vw;
+}
+
+.player .player-track .artist-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+    letter-spacing: .1vw;
+    color: white;
+}
+
+.player .player-track .music-name {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .7vw;
+    letter-spacing: .1vw;
+    margin-top: .3vw;
+}
+
+.player .player-control {
+    background: black;
+    width: 45vw;
+    margin-bottom: 3vw;
+    text-align: center;
+}
+
+.player .player-control #play {
+    border-radius: 50%;
+}
+
+#play img {
+    width: 1vw;
+    height: 1vw;
+    filter: invert(100%);
+}
+
+.player .player-control i {
+    cursor: pointer;
+    text-align: center;
+}
+
+.player .player-control i:before {
+    color: #000;
+    padding: 5px;
+}
+
+.player .player-control i:hover:before {
+    color: #000;
+}
+
+.player {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 61%;
+    left: 18vw;
+    mix-blend-mode: difference;
+    background: transparent;
+}
+
+.fas {
+    width: 2vw;
+    height: 2vw;
+    padding: .5vw;
+    opacity: .5;
+}
+
+.imgd {
+    transform: rotate(180deg);
+    filter: invert(100%);
+    width: 1.2vw;
+    height: 1.2vw;
+}
+
+.imgd2 {
+    filter: invert(100%);
+    width: 1.2vw;
+    height: 1.2vw;
+}
+
+.player-control {
+    margin-left: 10vw;
+    margin-top: 4vw;
+}
+
+#bar1 {
+    width: 10px;
+    height: 20px;
+    background: white;
+    position: absolute;
+    top: 0;
+    left: 20%;
+}
+
+.br1 {
+    animation: bar1 2s infinite;
+}
+
+@keyframes bar1 {
+    20%,
+    40%,
+    60%,
+    80%,
+    100% {
+        height: 10px;
+    }
+    0%,
+    21%,
+    41%,
+    61%,
+    81% {
+        height: 50px;
+    }
+}
+
+@keyframes to0 {
+    to {
+        height: 0;
+        opacity: 0;
+    }
+}
+
+#bars1 {
+    position: absolute;
+    width: 73%;
+    height: 30%;
+    top: -3%;
+    left: 12.8vw;
+}
+
+#bars2 {
+    position: absolute;
+    width: 73%;
+    height: 30%;
+    top: 37%;
+    left: 12.8vw;
+    transform: rotate(180deg);
+}
+
+.bar {
+    background: white;
+    display: block;
+    float: left;
+    bottom: 1px;
+    height: 1vw;
+    position: absolute;
+    width: .1vw;
+    opacity: 0;
+    /*filter: blur(.5px);*/
+    /*animation: sound 0ms -800ms linear infinite alternate;*/
+}
+
+@keyframes sound {
+    0% {
+        height: .2vw;
+    }
+    100% {
+        height: 2vw;
+    }
+}
+
+#bcx,
+#bcx21 {
+    left: 0;
+}
+
+#bcx2,
+#bcx22 {
+    left: 2vw;
+}
+
+#bcx3,
+#bcx23 {
+    left: 4vw;
+}
+
+#bcx4,
+#bcx24 {
+    left: 6vw;
+}
+
+#bcx5,
+#bcx25 {
+    left: 8vw;
+}
+
+#bcx6,
+#bcx26 {
+    left: 10vw;
+}
+
+#bcx7,
+#bcx27 {
+    left: 12vw;
+}
+
+#bcx8,
+#bcx28 {
+    left: 14vw;
+}
+
+#bcx9,
+#bcx29 {
+    left: 16vw;
+}
+
+#bcx10,
+#bcx30 {
+    left: 18vw;
+}
+
+#bcx11,
+#bcx31 {
+    left: 20vw;
+}
+
+#bcx12,
+#bcx32 {
+    left: 22vw;
+}
+
+#bcx13,
+#bcx33 {
+    left: 24vw;
+}
+
+#bcx14,
+#bcx34 {
+    left: 26vw;
+}
+
+#bcx15,
+#bcx35 {
+    left: 28vw;
+}
+
+#bcx16,
+#bcx36 {
+    left: 30vw;
+}
+
+#bcx17,
+#bcx37 {
+    left: 32vw;
+}
+
+#bcx18,
+#bcx38 {
+    left: 34vw;
+}
+
+#bcx19,
+#bcx39 {
+    left: 36vw;
+}
+
+#bcx20,
+#bcx40 {
+    left: 38vw;
+}
+
+#bcx20-1,
+#bcx40-1 {
+    left: 40vw;
+}
+
+#titles {
+    position: absolute;
+    width: 10vw;
+    height: 3vw;
+    top: 80%;
+    left: 22rem;
+    text-align: center;
+}
+
+html,
+button,
+.center-center,
+a {
+    cursor: crosshair
+}
+
+.joystick__dummy {
+    mix-blend-mode: difference;
+    position: relative;
+    transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border: 1px solid #fefefe;
+    border-radius: 10px;
+    margin: 0 0 0 -6px;
+    opacity: 0;
+    transform: scale(0);
+}
+
+.joystick__dummy--show {
+    mix-blend-mode: difference;
+    opacity: 1;
+    transform: scale(1);
+}
+
+.joystick {
+    position: absolute;
+    mix-blend-mode: difference;
+    width: 0;
+    height: 0;
+}
+
+.joystick:after {
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    content: "";
+    width: 150px;
+    height: 150px;
+    border: 1px solid #fefefe;
+    border-radius: 150px;
+    top: -75px;
+    left: -75px;
+    opacity: 0;
+}
+
+.joystick:before {
+    transition: all 0.2s ease-in;
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border: 1px solid #fefefe;
+    border-radius: 50px;
+    top: -26px;
+    left: -26px;
+}
+
+.joystick--down:before {
+    width: 10px;
+    height: 10px;
+    top: -6px;
+    left: -6px;
+    background: #fefefe;
+}
+
+.joystick--down:after {
+    transition: all 0.2s ease-in;
+    width: 10px;
+    height: 10px;
+    top: -6px;
+    left: -6px;
+    opacity: 1;
+}
