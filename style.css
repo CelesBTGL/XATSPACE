@@ -1171,6 +1171,7 @@ a {
 .progress-bar {
     position: relative;
     top: 1.5vw;
+    left: 19px;
 }
 
 .player .player-track .progress-bar .fillBar {
