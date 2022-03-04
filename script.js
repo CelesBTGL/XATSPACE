@@ -40,7 +40,7 @@ $(document).ready(function() {
         artistname.html(curSong.artist);
         musicName.html(curSong.name);
         song.src = curSong.src;
-        song.play({});
+        song.play();
         $("#play").addClass("fa-pause");
         $("#play").removeClass("fa-play");
         $("img").addClass("active");
