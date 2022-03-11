@@ -77,8 +77,8 @@ $(document).ready(function() {
             $("#play").removeClass("fa-play");
             $("img").addClass("active");
             /* $("#bar1").addClass("br1");*/
-            document.getElementById("bcx").style.opacity = "1";
-            document.getElementById("bcx2").style.opacity = "1";
+            // document.getElementById("bcx").style.opacity = "1";
+            // document.getElementById("bcx2").style.opacity = "1";
             document.getElementById("bcx3").style.opacity = "1";
             document.getElementById("bcx4").style.opacity = "1";
             document.getElementById("bcx5").style.opacity = "1";
@@ -117,15 +117,15 @@ $(document).ready(function() {
             document.getElementById("bcx37").style.opacity = "1";
             document.getElementById("bcx38").style.opacity = "1";
             document.getElementById("bcx39").style.opacity = "1";
-            document.getElementById("bcx40").style.opacity = "1";
-            document.getElementById("bcx40-1").style.opacity = "1";
+            // document.getElementById("bcx40").style.opacity = "1";
+            // document.getElementById("bcx40-1").style.opacity = "1";
 
 
 
 
 
-            document.getElementById("bcx").style.animation = "sound 474ms linear infinite alternate";
-            document.getElementById("bcx2").style.animation = "sound 433ms linear infinite alternate";
+            // document.getElementById("bcx").style.animation = "sound 474ms linear infinite alternate";
+            // document.getElementById("bcx2").style.animation = "sound 433ms linear infinite alternate";
             document.getElementById("bcx3").style.animation = "sound 407ms linear infinite alternate";
             document.getElementById("bcx4").style.animation = "sound 457ms linear infinite alternate";
             document.getElementById("bcx5").style.animation = "sound 400ms linear infinite alternate";
@@ -164,8 +164,8 @@ $(document).ready(function() {
             document.getElementById("bcx37").style.animation = "sound 441ms linear infinite alternate";
             document.getElementById("bcx38").style.animation = "sound 419ms linear infinite alternate";
             document.getElementById("bcx39").style.animation = "sound 487ms linear infinite alternate";
-            document.getElementById("bcx40").style.animation = "sound 442ms linear infinite alternate";
-            document.getElementById("bcx40-1").style.animation = "sound 400ms linear infinite alternate";
+            // document.getElementById("bcx40").style.animation = "sound 442ms linear infinite alternate";
+            // document.getElementById("bcx40-1").style.animation = "sound 400ms linear infinite alternate";
         } else {
             song.pause();
             playing = false;
@@ -254,10 +254,10 @@ $(document).ready(function() {
             document.getElementById("bcx38").style.animationFillMode = "forwards";
             document.getElementById("bcx39").style.animation = "to0 .5s 1";
             document.getElementById("bcx39").style.animationFillMode = "forwards";
-            document.getElementById("bcx40").style.animation = "to0 .5s 1";
-            document.getElementById("bcx40").style.animationFillMode = "forwards";
-            document.getElementById("bcx40-1").style.animation = "to0 .5s 1";
-            document.getElementById("bcx40-1").style.animationFillMode = "forwards";
+            // document.getElementById("bcx40").style.animation = "to0 .5s 1";
+            // document.getElementById("bcx40").style.animationFillMode = "forwards";
+            // document.getElementById("bcx40-1").style.animation = "to0 .5s 1";
+            // document.getElementById("bcx40-1").style.animationFillMode = "forwards";
             //$("#bar1").removeClass("br1");
             //document.getElementById("bar1").style.height = "0";
         }
