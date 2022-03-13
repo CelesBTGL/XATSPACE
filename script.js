@@ -12,21 +12,21 @@ $(document).ready(function() {
     window.onload = load();
 
     function load() {
-        audioData = [{
-                name: "Forgotten",
-                artist: "Korn",
-                src: "assets/forgotten.mp3?raw=true"
+        audioData = [
+            {
+                name: "Obsolete",
+                artist: "Perox?whygen",
+                src: "assets/obsolete.mp3?raw=true"
             },
-
             {
                 name: "Run",
                 artist: "Bring Me The Horizon",
                 src: "assets/Run.mp3?raw=true"
             },
             {
-                name: "Take back to the fear",
-                artist: "Hail The Villain",
-                src: "assets/takebackthefear.mp3?raw=true"
+                name: "Forgotten",
+                artist: "Korn",
+                src: "assets/forgotten.mp3?raw=true"
             }
         ];
 
