@@ -14,9 +14,9 @@ $(document).ready(function() {
     function load() {
         audioData = [
             {
-                name: "Obsolete",
-                artist: "Perox?whygen",
-                src: "assets/obsolete.mp3?raw=true"
+                name: "One True Villain",
+                artist: "H.T.M.W",
+                src: "assets/villain.mp3?raw=true"
             },
             {
                 name: "Run",
