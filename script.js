@@ -14,9 +14,9 @@ $(document).ready(function() {
     function load() {
         audioData = [
             {
-                name: "One True Villain",
-                artist: "H.T.M.W",
-                src: "assets/villain.mp3?raw=true"
+                name: "DIE4U",
+                artist: "BMTH",
+                src: "assets/DIE4U.mp3?raw=true"
             },
             {
                 name: "Run",
