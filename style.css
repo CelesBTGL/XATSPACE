@@ -256,12 +256,12 @@ audio {
 
 .line:after {
     top: 2px;
-    background: blue;
+    background: rgb(95, 9, 67);
 }
 
 .line:before {
     top: -2px;
-    background: blue;
+    background: rgb(63, 9, 70);
 }
 
 @-webkit-keyframes skew {
@@ -807,7 +807,7 @@ audio {
         text-shadow: -0.05em -0.025em 0 rgba(255, 0, 0, 0.75), 0.025em 0.025em 0 rgba(0, 255, 0, 0.75), -0.05em -0.05em 0 rgba(0, 0, 255, 0.75);
     }
     49% {
-        text-shadow: -0.05em -0.025em 0 rgba(255, 0, 0, 0.75), 0.025em 0.025em 0 rgba(0, 255, 0, 0.75), -0.05em -0.05em 0 rgba(0, 0, 255, 0.75);
+        text-shadow: -0.05em -0.025em 0 rgba(255, 0, 0, 0.75), 0.025em 0.025em 0 rgba(0, 255, 0, 0.75), -0.05em -0.05em 0 rgba(226, 226, 243, 0.75);
     }
     50% {
         text-shadow: 0.025em 0.05em 0 rgba(255, 0, 0, 0.75), 0.05em 0 0 rgba(0, 255, 0, 0.75), 0 -0.05em 0 rgba(0, 0, 255, 0.75);
