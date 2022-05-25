@@ -21,7 +21,7 @@ $(document).ready(function() {
             {
                 name: "All Apologies",
                 artist: "Nirvana",
-                src: "assets/space-allapologies.mp3?raw=true"
+                src: "assets/allapologies.mp3?raw=true"
             },
             {
                 name: "Forgotten",
