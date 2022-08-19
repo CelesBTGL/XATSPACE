@@ -256,12 +256,12 @@ audio {
 
 .line:after {
     top: 2px;
-    background: rgb(95, 9, 67);
+    background: rgb(45, 21, 255);
 }
 
 .line:before {
     top: -2px;
-    background: rgb(63, 9, 70);
+    background: rgb(14, 75, 145);
 }
 
 @-webkit-keyframes skew {

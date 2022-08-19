@@ -14,9 +14,9 @@ $(document).ready(function() {
 
     function load() {
         audioData = [{
-                name: "Screaming Souls",
-                artist: "X-Ray Dog",
-                src: "assets/xraydog.mp3?raw=true"
+                name: "In The Dark",
+                artist: "BMTH",
+                src: "assets/inthedark.mp3?raw=true"
             },
             {
                 name: "All Apologies",
