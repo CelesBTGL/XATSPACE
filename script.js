@@ -14,14 +14,14 @@ $(document).ready(function() {
 
     function load() {
         audioData = [{
+                name: "All Apologies",
+                artist: "Nirvana",
+                src: "assets/poppy-anythinglikeme.mp3?raw=true"
+            },
+            {
                 name: "In The Dark",
                 artist: "BMTH",
                 src: "assets/inthedark.mp3?raw=true"
-            },
-            {
-                name: "All Apologies",
-                artist: "Nirvana",
-                src: "assets/allapologies.mp3?raw=true"
             },
             {
                 name: "Forgotten",
