@@ -14,8 +14,8 @@ $(document).ready(function() {
 
     function load() {
         audioData = [{
-                name: "All Apologies",
-                artist: "Nirvana",
+                name: "Anything like me",
+                artist: "Poppy",
                 src: "assets/poppy-anythinglikeme.mp3?raw=true"
             },
             {
