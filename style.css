@@ -231,7 +231,8 @@ audio {
     color: limegreen;
 }
 
-.line {
+
+/* .line {
     position: absolute;
     left: 0;
     right: 0;
@@ -262,7 +263,7 @@ audio {
 .line:before {
     top: -2px;
     background: rgb(14, 75, 145);
-}
+} */
 
 @-webkit-keyframes skew {
     0% {
@@ -720,11 +721,12 @@ audio {
     right: 0;
     bottom: 0;
     display: block;
-    /* background: url(assets/img/bg.gif); */
+    background: url(assets/img/glitch.gif);
     background-size: cover;
     transform-origin: center center 0;
     transform: translateZ(-1px) scale(2);
     z-index: -1;
+    opacity: 0.3;
     min-height: 100vh;
 }
 

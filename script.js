@@ -14,9 +14,9 @@ $(document).ready(function() {
 
     function load() {
         audioData = [{
-                name: "Anything like me",
-                artist: "Poppy",
-                src: "assets/poppy-anythinglikeme.mp3?raw=true"
+                name: "TROVT",
+                artist: "MTBB",
+                src: "assets/madetobebroken-rootsofbanquisherstree.mp3?raw=true"
             },
             {
                 name: "In The Dark",
