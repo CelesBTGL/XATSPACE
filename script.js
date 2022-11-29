@@ -14,6 +14,10 @@ $(document).ready(function() {
 
     function load() {
         audioData = [{
+                name: "Iris",
+                artist: "SWS",
+                src: "assets/iris-sws.mp3?raw=true"
+            }, {
                 name: "TROVT",
                 artist: "MTBB",
                 src: "assets/madetobebroken-rootsofbanquisherstree.mp3?raw=true"
@@ -22,11 +26,6 @@ $(document).ready(function() {
                 name: "In The Dark",
                 artist: "BMTH",
                 src: "assets/inthedark.mp3?raw=true"
-            },
-            {
-                name: "Forgotten",
-                artist: "Korn",
-                src: "assets/forgotten.mp3?raw=true"
             }
         ];
 
