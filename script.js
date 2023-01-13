@@ -14,18 +14,18 @@ $(document).ready(function() {
 
     function load() {
         audioData = [{
-                name: "Iris",
-                artist: "SWS",
-                src: "assets/iris-sws.mp3?raw=true"
+                name: "Let The Dark Do The Rest",
+                artist: "Korn",
+                src: "assets/LetTheDarkDoTheRest.mp3?raw=true"
             }, {
                 name: "TROVT",
                 artist: "MTBB",
                 src: "assets/madetobebroken-rootsofbanquisherstree.mp3?raw=true"
             },
             {
-                name: "In The Dark",
-                artist: "BMTH",
-                src: "assets/inthedark.mp3?raw=true"
+                name: "Poem",
+                artist: "Taproot",
+                src: "assets/poem.mp3?raw=true"
             }
         ];
 
@@ -39,6 +39,7 @@ $(document).ready(function() {
         artistname.html(curSong.artist);
         musicName.html(curSong.name);
         song.src = curSong.src;
+        console.log(curSong.name);
         song.play();
         $("#play").addClass("fa-pause");
         $("#play").removeClass("fa-play");

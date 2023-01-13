@@ -908,27 +908,27 @@ audio {
 
 #R:target .ImgCl,
 #R:target #mnu:hover #cog {
-    filter: contrast(0%) sepia(1) hue-rotate(330deg) saturate(1700%) grayscale(60%);
+    /* filter: contrast(0%) sepia(1) hue-rotate(330deg) saturate(1700%) grayscale(60%);*/
 }
 
 #B:target .ImgCl,
 #B:target #mnu:hover #cog {
-    filter: contrast(0%) sepia(1) hue-rotate(20deg) saturate(1000%) invert(100%) grayscale(50%);
+    /* filter: contrast(0%) sepia(1) hue-rotate(20deg) saturate(1000%) invert(100%) grayscale(50%);*/
 }
 
 #G:target .ImgCl,
 #G:target #mnu:hover #cog {
-    filter: contrast(400%) sepia(1) hue-rotate(220deg) saturate(1500%) invert(100%)grayscale(50%) brightness(200%);
+    /*filter: contrast(400%) sepia(1) hue-rotate(220deg) saturate(1500%) invert(100%)grayscale(50%) brightness(200%);*/
     /* filter: contrast(10000%); */
 }
 
 #G:target #logimg {
-    filter: contrast(900%) sepia(1) hue-rotate(220deg) saturate(9000%) invert(100%) grayscale(60%) brightness(200%);
+    /* filter: contrast(900%) sepia(1) hue-rotate(220deg) saturate(9000%) invert(100%) grayscale(60%) brightness(200%);*/
 }
 
 #P:target .ImgCl,
 #P:target #mnu:hover #cog {
-    filter: contrast(40%) sepia(1) hue-rotate(20deg) saturate(1000%) grayscale(30%);
+    /* filter: contrast(40%) sepia(1) hue-rotate(20deg) saturate(1000%) grayscale(30%);*/
 }
 
 #mnu:hover {
@@ -993,10 +993,10 @@ audio {
 
 #Log img {
     width: 40%;
-    left: 30%;
-    top: -61%;
+    left: 20%;
+    top: -16%;
     position: absolute;
-    filter: contrast(900%) sepia(1) hue-rotate(220deg) saturate(9000%) invert(100%) grayscale(153%) brightness(279%);
+    /* filter: contrast(900%) sepia(1) hue-rotate(220deg) saturate(9000%) invert(100%) grayscale(153%) brightness(279%);*/
 }
 
 #cong {
