@@ -14,13 +14,14 @@ $(document).ready(function() {
 
     function load() {
         audioData = [{
+                name: "Running with Scissors",
+                artist: "I see stars",
+                src: "assets/rws.mp3?raw=true"
+            },
+            {
                 name: "Let The Dark Do The Rest",
                 artist: "Korn",
                 src: "assets/LetTheDarkDoTheRest.mp3?raw=true"
-            }, {
-                name: "TROVT",
-                artist: "MTBB",
-                src: "assets/madetobebroken-rootsofbanquisherstree.mp3?raw=true"
             },
             {
                 name: "Poem",
