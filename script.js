@@ -16,7 +16,7 @@ $(document).ready(function() {
         audioData = [{
                 name: "A Different World",
                 artist: "Korn ft. Corey Taylor",
-                src: "assets/differentWorld.mp3?raw=true"
+                src: "assets/differentworld.mp3?raw=true"
             },
             {
                 name: "Running with Scissors",
